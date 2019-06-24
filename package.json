@@ -1,0 +1,17 @@
+{
+  "name": "fileuploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=fileUploader"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.1.1",
+    "@google-cloud/storage": "^2.5.0",
+    "busboy": "^0.3.1"
+  }
+}
